@@ -1,0 +1,28 @@
+Below is the project description. It is what I am aiming for.
+
+Water temp in to the water to air handler
+Water temp out of the water to air handler
+Water temp in to the water to water handler
+Water temp out of the water to water handler
+Water temp in to the manifold for the floor
+Water temp out of the manifold to the floor
+Water temp in to the water heater
+Water temp out of the water heater
+Outside air temp
+Plenum air temp
+Water flow through the water to air handler
+Water flow through the water to water handler
+
+I would like to store this data in some sort of way to be able to review it over time.  I suspect you will want a data base but the amount of data should be minimal.   Probably less than 50 GB.  Each record in the DB is pretty small.   Such as - 
+
+1.  How much water do I expect to use the the outside air temp reaches 40 degrees farenhight.
+2.  How much water did we use in the water to air handler last month
+3.  What was the total amount of water that flowed through the water to water unit last year
+4.  Did we use more water in 2021 or 2022
+
+Later on, I might want to use the relays that I purchased to create the following logic.  
+
+1.  If the water to air handler is running, don’t let the water to water unit run.
+2.  If the incoming water temp is < 38 degrees, don’t let any of the units run.
+
+Not sure how you will present this data to me, in a web form, or some sort of SQL query.
